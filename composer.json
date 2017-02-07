@@ -1,0 +1,25 @@
+{
+  "name": "alysonrodrigo/mylib",
+  "description": "Biblioteca de teste do composer",
+  "require":{
+    "php":">=5.4",
+    "silex/silex":"2.0.4"
+  },
+  "require-dev":{
+    "phpunit/phpunit":"6.0.5"
+  },
+  "type": "library",
+  "version": "1.0",
+  "license":"MIT",
+  "authors":[
+   {
+     "name": "Alyson Rodrigo Gustavo da Silva",
+     "email": "aci.alyson@gmail.com"
+   }
+  ],
+  "minimum-stability":"dev",
+  "autoload":{
+     "psr-4":{"AlysonRodrigo\\":"src/AlysonRodrigo"}
+  }
+
+}
